@@ -4,7 +4,7 @@
 #wb_main { height: 1830px; }
 #wb_footer { background: transparent none repeat-x scroll center bottom; height: 70px; }
 #wb_footer { height: 70px; }
-body { background: #ffffff url("../gallery_gen/bg.jpg") no-repeat scroll center top; }
+body { background: #ffffff url("../img/bg.jpg") no-repeat scroll center top; }
 .wb_sbg { background: transparent none repeat-x scroll center bottom; }
 body, .wb_sbg { min-width: 320px; min-height: 2194px; }
 .root { width: 320px; height: 2194px; overflow: hidden; }

@@ -4,7 +4,7 @@
 #wb_main { height: 1420px; }
 #wb_footer { background: transparent none repeat-x scroll center top; height: 70px; }
 #wb_footer { height: 70px; }
-body { background: transparent url("../img/bg.jpg") no-repeat scroll center top; }
+body { background: transparent url("../gallery_gen/985b3d30a505cb4dfe8a363f7e6915f0.jpg") no-repeat scroll center top; }
 .wb_sbg { background: transparent none repeat-x scroll center bottom; }
 body, .wb_sbg { min-width: 320px; min-height: 1784px; }
 .root { width: 320px; height: 1784px; overflow: hidden; }
@@ -109,8 +109,8 @@ body, .wb_sbg { min-width: 320px; min-height: 1784px; }
 	#wb_element_instance11 img { width: 106px; height: 106px; position: static; left: 0px; top: 0px; }
 	/*Serhii top:610*/#wb_element_instance12 { left: 420px; top: 40px; min-width: 103px; width: 103px; min-height: 32px; height: 32px; display: block; }	
 	/*Serhii: изменяем размер высоты боди, чтобы не прокручивался дальше сайт для wb_element_instance13*/
-	#wb_element_instance13 { left: 0px; top: 0px; min-width: 990px; width: 990px; min-height: 740px; height: 740px; display: block; }
-	#wb_element_instance13 > div { width: 990px; height: 740px; }
+	#wb_element_instance13 { left: 0px; top: 0px; min-width: 760px; width: 760px; min-height: 740px; height: 740px; display: block; }
+	#wb_element_instance13 > div { width: 760px; height: 740px; }
 	
 	/*Serhii top:610, (7,14)*/#wb_element_instance14 { left: 560px; top: 345px; min-width: 430px; width: 430px; min-height: 167px; height: 167px; display: block; }
 	/*Serhii:(11,15)*/#wb_element_instance15 { left: 560px; top: 580px; min-width: 430px; width: 430px; min-height: 167px; height: 167px; display: block; }
@@ -145,8 +145,8 @@ body, .wb_sbg { min-width: 320px; min-height: 1784px; }
 	#wb_element_instance11 img { width: 120px; height: 120px; position: static; left: 0px; top: 0px; }
 	/*Serhii top:610*/#wb_element_instance12 { left: 460px; top: 40px; min-width: 103px; width: 103px; min-height: 39px; height: 39px; display: block; }
 	/*Serhii: изменяем размер высоты боди, чтобы не прокручивался дальше сайт для wb_element_instance13*/
-	#wb_element_instance13 { left: 0px; top: 0px; min-width: 1200px; width: 1200px; min-height: 740px; height: 740px; display: block; }
-	#wb_element_instance13 > div { width: 1200px; height: 740px; }	
+	#wb_element_instance13 { left: 0px; top: 0px; min-width: 760px; width: 760px; min-height: 740px; height: 740px; display: block; }
+	#wb_element_instance13 > div { width: 760px; height: 740px; }	
 	/*Serhii top:940, +235*/#wb_element_instance14 { left: 620px; top: 340px; min-width: 530px; width: 530px; min-height: 139px; height: 139px; display: block; }
 	/*Serhii:(11,15)*/#wb_element_instance15 { left: 620px; top: 580px; min-width: 550px; width: 550px; min-height: 139px; height: 139px; display: block; }
 }
