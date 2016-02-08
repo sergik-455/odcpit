@@ -1,0 +1,37 @@
+
+var loadcode = function() {
+
+var _zyroBadge = _zyroBadge || [];
+_zyroBadge.push({hash: "???"});
+
+(function() {
+	var script = document.createElement("script");
+	script.type = "text/javascript";
+	script.async = true;
+	script.src = "http://zyro.com/catalog/getjs/";
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(script, s);
+})();
+
+};
+
+(function() {
+	if (!("_zyroBadge" in window) && ("_siteProBadge" in window)) {
+		var _zyroBadge = _siteProBadge;
+	} else if (!("_zyroBadge" in window)) {
+		var _zyroBadge = null;
+	}
+	if (_zyroBadge && typeof(_zyroBadge) === "object" && _zyroBadge.length > 0) {
+		for (var i = 0; i < _zyroBadge.length; i++) {
+			var z = _zyroBadge[i];
+			if (typeof(z) !== "object" || !z.hash) continue;
+			if (z.cont) {
+				$("#" + z.cont).find("a").attr("href", "http://zyro.com/catalog/");
+				//$("#" + z.cont).find("a").attr("href", "#");
+			}
+			var img = new Image();
+			img.src = "http://zyro.com/catalog/statgif/?hash=" + z.hash +
+					"&domain=" + location.hostname;
+		}
+	}
+})();
